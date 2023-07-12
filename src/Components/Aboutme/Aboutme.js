@@ -18,7 +18,7 @@ export default function Aboutme() {
             </p>
           </div>
           <div class="Aboutme-column r-column">
-            <img class="Aboutme-img" src={Aboutmeimg} />
+            <img class="Aboutme-img" src={Aboutmeimg}  alt="aboutme"/>
           </div>
         </div>
       </div>

@@ -20,7 +20,7 @@ export default function Skills() {
           <div class="skills-box">
             <div class="skills-title">
               <div class="skills-img">
-                <img class="skills-icons" src={HTML} />
+                <img class="skills-icons" src={HTML} alt="HTML"/>
               </div>
               <h3>HTML</h3>
             </div>
@@ -28,7 +28,7 @@ export default function Skills() {
           <div class="skills-box">
             <div class="skills-title">
               <div class="skills-img">
-                <img class="skills-icons" src={CSS} />
+                <img class="skills-icons" src={CSS} alt="CSS" />
               </div>
               <h3>CSS</h3>
             </div>
@@ -36,7 +36,7 @@ export default function Skills() {
           <div class="skills-box">
             <div class="skills-title">
               <div class="skills-img">
-                <img class="skills-icons" src={Javascript} />
+                <img class="skills-icons" src={Javascript} alt="JavaScript" />
               </div>
               <h3>JAVASCRIPT</h3>
             </div>
@@ -44,7 +44,7 @@ export default function Skills() {
           <div class="skills-box">
             <div class="skills-title">
               <div class="skills-img">
-                <img class="skills-icons" src={Reactjs} />
+                <img class="skills-icons" src={Reactjs}  alt="ReactJs"/>
               </div>
               <h3>REACT JS</h3>
             </div>
@@ -52,7 +52,7 @@ export default function Skills() {
           <div class="skills-box">
             <div class="skills-title">
               <div class="skills-img">
-                <img class="skills-icons" src={C} />
+                <img class="skills-icons" src={C}  alt="C"/>
               </div>
               <h3>C</h3>
             </div>
@@ -60,7 +60,7 @@ export default function Skills() {
           <div class="skills-box">
             <div class="skills-title">
               <div class="skills-img">
-                <img class="skills-icons" src={Cpp} />
+                <img class="skills-icons" src={Cpp} alt="C++"/>
               </div>
               <h3>C++</h3>
             </div>
@@ -68,7 +68,7 @@ export default function Skills() {
           <div class="skills-box">
             <div class="skills-title">
               <div class="skills-img">
-                <img class="skills-icons" src={Python} />
+                <img class="skills-icons" src={Python} alt="Python"/>
               </div>
               <h3>PYTHON</h3>
             </div>
@@ -77,7 +77,7 @@ export default function Skills() {
           <div class="skills-box">
             <div class="skills-title">
               <div class="skills-img">
-                <img class="skills-icons" src={Canva} />
+                <img class="skills-icons" src={Canva} alt="Canva"/>
               </div>
               <h3>CANVA</h3>
             </div>

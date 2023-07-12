@@ -32,16 +32,16 @@ export default function Contact() {
           <h1>Contact me</h1>
         </div>
         <div class="row">
-          <div class="column ">
-            <div class="g">
+          <div class="column l ">
+            <div class="details">
               <div class="phone">
                 <a href="#">
                   <i class="fas fa-phone-volume"></i>+007 9089 6767
                 </a>
               </div>
               <div class="email">
-                <a href="#">
-                  <i class="fas fa-envelope"></i>abc@gmail.com
+                <a href="mailto:sarlisengar@gmail.com"   target="_blank" >
+                  <i class="fas fa-envelope"></i>sarlisengar@gmail.com
                 </a>
               </div>
               <div class="email">
@@ -51,18 +51,18 @@ export default function Contact() {
               </div>
             </div>
             <div class="social-media">
-              <a href="#" class="social-btn">
+              <a href="https://www.linkedin.com/in/sarli-sengar-5093a322a/"  target="_blank"  class="social-btn">
                 <i class="fa-brands fa-linkedin-in "></i>
               </a>
-              <a href="#" class="social-btn">
+              <a href="https://www.instagram.com/ss_14723617/?hl=en"  target="_blank"  class="social-btn">
                 <i class="fab fa-instagram"></i>
               </a>
-              <a href="#" class="social-btn">
+              <a href="https://github.com/Sarli2002"  target="_blank" class="social-btn">
                 <i class="fab fa-github"></i>
               </a>
             </div>
           </div>
-          <div class="column">
+          <div class="column r">
             <form ref={form} onSubmit={sendEmail}>
               <label for="name"> Name</label>
               <input

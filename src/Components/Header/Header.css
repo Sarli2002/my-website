@@ -3,7 +3,7 @@
     overflow: hidden;
     min-height: 90vh;
     background-color: #222831;
-    /* background-color: #222831; */
+   
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -29,17 +29,19 @@
     
   }
   .text-1 span {
-    
     font-size: 27px;
   }
   .header .header-content .text-2 {
-    font-size: 75px;
+    font-size: 100px;
+    
+    margin-left: -3px;
     color:var(--primary-color);
     font-family: 'Playfair Display', serif; 
   }
-  .header p {
-      text-align: justify;
-      
+  .text-3 {
+    
+      font-size: 40px;
+    margin: 5px 0;
     }
   
   
@@ -59,8 +61,7 @@
       
       background: rgb(214, 214, 214);
       border-radius: 50%;
-       /* box-shadow: 28px 28px 48px #171b21,
-               -28px -28px 48px #2d3541; */
+       
       transition: 0.2s;
     }
     
